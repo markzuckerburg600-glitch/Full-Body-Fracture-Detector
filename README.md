@@ -17,11 +17,11 @@ An Ensemble of AIs that can be used for a variety of fracture types
 ### 1. The Frontend
 * This is the website where the user or technician interacts with the tool. It needs a clean upload area for the X-ray. Its job is to handle the file, send it to the backend for processing, and then display the final results like the image overlays and the summary.
 
-### 2. The Body Part Classifier
-* Once the image is uploaded, it hits this first AI model. This is a general classifier that looks at the whole image and identifies exactly what part of the body it’s looking at (like a shoulder, hand, or knee). This is crucial because it decides which specialized tool needs to be used next.
+### 2. The Bounding Box Model (YOLO Model)
+* A YOLO model determines bounding boxes for the fractures in the image. There can be multiple bounding boxes if there's multiple fractures
 
-### 3. The Bounding Box Model (YOLO Model)
-* This is where the actual detection happens. Based on what the classifier found, the system picks a specific model trained only for that body part. This model scans the image to find which fracture it is, and a YOLO model is introduced to find the exact location of a fracture. It draws a "bounding box" around the break.
+### 3. The Classifier
+* An AI model gets fed copies of the same image, but for every fracture found, the system generates a unique copy of the original image. Specific Overlay: On "Image 1," the system draws only the first bounding box. On "Image 2," it draws only the second, and so on. These images get classified by the AI on what type of fracture is present.
 
 ### 4. The Reporter (MedGemma)
 * After the detection is done, you have raw data (like coordinates and labels). This data is fed into MedGemma, a language model trained on medical text. It takes those technical results (Along with a potential clinical note) and writes a clear, professional summary that explains the findings in plain English.
