@@ -1,3 +1,5 @@
+![WIP](https://img.shields.io/badge/status-work--in--progress-orange)
+  
 # Full-Body-Fracture-Detector
 An Ensemble of AIs that can be used for a variety of fracture types
 
@@ -28,6 +30,9 @@ An Ensemble of AIs that can be used for a variety of fracture types
 
 ### 5. The Output (Result Display)
 * The final step sends everything back to the website. The user sees the original X-ray with a red box highlighting the break, the type of fracture, and the written report sitting right next to it.
+
+# Website Link
+![WIP](https://img.shields.io/badge/status-work--in--progress-orange)
 
 # Contributors
 ### Thank you to
