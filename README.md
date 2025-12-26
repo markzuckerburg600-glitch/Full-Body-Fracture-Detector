@@ -2,6 +2,24 @@
   
 # Full-Body-Fracture-Detector
 An Ensemble of AIs that can be used for a variety of fracture types
+1. Avulsion fracture
+2. Closed (simple) fracture
+3. Comminuted fracture
+4. Compression (crush) fracture
+5. Fracture dislocation
+6. Greenstick fracture
+7. Hairline fracture
+8. Impacted fracture
+9. Intra-articular fracture
+10. Longitudinal fracture
+11. Oblique fracture
+12. Open (compound) fracture
+13. Pathological fracture
+14. Segmental fracture
+15. Spiral fracture
+16. Stress fracture
+17. Transverse fracture
+* Link to dataset: https://data.mendeley.com/datasets/2j8vvz3j6v/1
 
 # The Problem
 * Radiologists are constantly under stress
