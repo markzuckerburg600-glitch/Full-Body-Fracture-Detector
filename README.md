@@ -5,7 +5,7 @@ An Ensemble of AIs that can be used for a variety of fracture types
 * Radiologists are constantly under stress
 * Misdiagnoses leads to wasted time going to other visits (Not to mention the costs)
 * Not every place has world-class radiologists on site
-<p align = "center">
+<p align="center">
  <img src = "https://outcomesrocket.health/wp-content/uploads/2020/04/Reducing-Misdiagnosis-in-Radiology-and-Beyond-1.png" width = "100%" height = "auto">
 </p>
 
@@ -28,3 +28,10 @@ An Ensemble of AIs that can be used for a variety of fracture types
 
 ### 5. The Output (Result Display)
 * The final step sends everything back to the website. The user sees the original X-ray with a red box highlighting the break, the type of fracture, and the written report sitting right next to it.
+
+# Contributors
+### Thank you to
+* Partho Biswas
+* Ambrose Sukraj
+* Alikhan Zhumabayev
+* And Many Other Supporters!
