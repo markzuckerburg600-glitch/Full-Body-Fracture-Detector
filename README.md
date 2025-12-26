@@ -19,7 +19,7 @@ An Ensemble of AIs that can be used for a variety of fracture types
 15. Spiral fracture
 16. Stress fracture
 17. Transverse fracture
-18. 
+18. No Fracture 
 ### Link to datasets
 * https://data.mendeley.com/datasets/2j8vvz3j6v/1
 * https://www.kaggle.com/datasets/bmadushanirodrigo/fracture-multi-region-x-ray-data
